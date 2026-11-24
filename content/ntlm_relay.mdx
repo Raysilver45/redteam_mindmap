@@ -1,0 +1,104 @@
+---
+title: NTLM Relay
+description: "Présenter les attaques par relai NTLM."
+publishedAt: "2025-10-11"
+published: true
+cover: image.png
+category: "ActiveDirectory"
+---
+
+# Explications
+
+Voici un exemple de billet de démonstration pour illustrer le rendu MDX.
+
+Les attaques de type "NTLM Relay" permettent à un attaquant de relayer des authentifications NTLM entre un client et un service.
+
+![image](/image.png)
+
+<br></br>
+
+# Details
+
+Un résumé clair et quelques étapes :
+
+- Comprendre le protocole NTLM
+- Capturer une authentification
+- Relayer l'authentification vers la cible
+- Comprendre le protocole NTLM
+- Capturer une authentification
+- Relayer l'authentification vers la cible
+- Comprendre le protocole NTLM
+- Capturer une authentification
+- Relayer l'authentification vers la cible
+
+<br></br>
+
+# Commande exemple
+
+<CommandGroup>
+  <Command tool="ntlmrelayx">
+    ```bash
+    ntlmrelayx -I eth0 -smb2support
+    ```
+  </Command>
+
+  <Command tool="krbrelayx">
+    ```bash
+    krbrelayx -I eth0 -smb2support
+    ```
+
+  </Command>
+
+  <Command tool="responder">
+    ```bash
+    Responder -I eth0 -wb -r 10.0.0.5 | cme smb "$USER" -p "password" -d 'domain.local'
+    ```
+  </Command>
+</CommandGroup>
+
+
+
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+<Note>
+Ce bloc illustre l'utilisation d'un composant MDX personnalisé. Il contient du texte simple et sert à vérifier l'apparence des notes dans le rendu final.
+</Note>
+
+Conclusion: ceci est du contenu d'exemple pour vérifier le rendu des titres, listes et blocs de code.
